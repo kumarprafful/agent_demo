@@ -5,4 +5,4 @@ client = anthropic.AsyncAnthropic()
 
 anthropic_client = anthropic.AsyncAnthropic()
 
-docker_client = docker.DockerClient(base_url="")
+docker_client = docker.DockerClient(base_url="unix:///Users/praffulkumar/.docker/run/docker.sock")

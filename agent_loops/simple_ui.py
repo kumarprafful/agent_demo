@@ -1,3 +1,4 @@
+import asyncio
 from rich.prompt import Prompt
 from rich.console import Console
 from rich.panel import Panel
@@ -176,3 +177,7 @@ async def main():
                     )
                     console.print(panel)
             print()
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
